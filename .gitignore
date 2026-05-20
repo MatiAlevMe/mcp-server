@@ -1,3 +1,6 @@
+# Mailmap file to map author names and emails to canonical real ones, which is used by git shortlog and git blame commands.
+.mailmap
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
