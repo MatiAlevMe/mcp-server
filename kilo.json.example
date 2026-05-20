@@ -1,0 +1,22 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "mcp": {
+    "my-custom-mcp": {
+      "type": "local",
+      "command": [
+        "ruby",
+        "C:/path/to/your/project/bin/mcp_server.rb"
+      ],
+      "environment": {
+        "ENABLE_MYSQL": "true",
+        "ENABLE_GIT": "true",
+        "DB_HOST": "127.0.0.1",
+        "DB_PORT": "3306",
+        "DB_USER": "root",
+        "DB_NAME": "your_database"
+      },
+      "enabled": true,
+      "timeout": 120000
+    }
+  }
+}
